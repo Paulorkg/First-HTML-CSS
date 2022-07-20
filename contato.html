@@ -11,7 +11,7 @@
     <body>
         <header>
             <div class="caixa">
-                <a href="index.html"><h1><img src="logo.png"></h1>
+                <a href="index.html"><h1><img src="logo.png" alt="Logo da barbaria Guterres"></h1>
                 
                 <nav>
                     <ul>
@@ -26,36 +26,36 @@
         <main>
             <form>
                 <label for="seunome">Seu nome:</label>
-                <input type="text" id="seunome" class="input-padrao">
+                <input type="text" id="seunome" class="input-padrao" required>
 
                 <label for="email">E-mail:</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="Digite seu e-mail">
 
                 <label for="telefone">Telefone:</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(__) _____-____">
 
                 <label for="textoarea">Deixe sua mensagem no campo abaixo:</label>
-                <textarea cols="70" rows="10" id="textoarea"></textarea>
+                <textarea cols="70" rows="10" id="textoarea" required placeholder="Digite aqui sua mensagem"></textarea>
 
-                <div>    
-                    <p>Como deseja o nosso contato?</p>
+                <fieldset>    
+                    <legend>Como deseja o nosso contato?</legend>
 
                     <label for="email-radio"><input type="radio" value="E-mail" id="email-radio" name="contato">Email</label>
                     
                     <label for="telefone-radio"><input type="radio" value="Telefone" id="telefone-radio" name="contato">Telefone</label>
                     
-                    <label for="whats-radio"><input type="radio" value="Whatsapp" id="whats-radio" name="contato">Whatsapp</label>
+                    <label for="whats-radio"><input type="radio" value="Whatsapp" id="whats-radio" name="contato" checked>Whatsapp</label>
                     
-                </div>
-                <div class="div-periodo">
-                    <p>Qual período prefere ser atendido?</p>
+                </fieldset>
+                <fieldset class="div-periodo">
+                    <legend>Qual período prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                     </select>
-                </div>
+                </fieldset>
 
-                    <label><input type="checkbox" class="campo-checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+                    <label><input type="checkbox" class="campo-checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
                 
                 
 
@@ -66,7 +66,7 @@
         </main>
 
         <footer>
-            <img src="logo-branco.png">
+            <img src="logo-branco.png" alt="Logo da barbaria Guterres">
             <p class="copyright">&copy; Copyright Barbearia Guterres - 2022</p>
         </footer>
 
