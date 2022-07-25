@@ -195,3 +195,38 @@ td, th {
     padding: 10px 25px;
     font-weight: bold;
 }
+
+/* Css da pagina principal */
+
+.banner {
+    width: 100%;
+}
+
+.titulo-secundario {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 2em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 2em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 140px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
