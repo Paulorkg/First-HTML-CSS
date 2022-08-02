@@ -252,6 +252,7 @@ td, th {
     width: 140px;
     float: left;
     margin: 0 20px 20px 0;
+    box-shadow: -10px -10px 5px #000000;
 }
 
 .mapa {
@@ -262,6 +263,7 @@ td, th {
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
+    
 }
 
 .conteudo-beneficio {
@@ -291,6 +293,14 @@ td, th {
 
 .imagembeneficios {
     width: 60%;
+    opacity: 0.7;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 2px #000000;
+    
+}
+
+.imagembeneficios:hover {
+    opacity: 1.0;
 }
 
 
@@ -302,6 +312,7 @@ td, th {
 .video p {
     text-align: center;
     margin: 1em auto;
+    font-weight: bold;
 }
 
 .video strong {
