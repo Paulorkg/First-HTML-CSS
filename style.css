@@ -332,3 +332,23 @@ td, th {
     animation: neon 3s alternate infinite ease-in-out;
     --cor-neon: #3336ff;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+
+    .conteudo-beneficio, .imagembeneficios {
+        width: 100%;
+    }
+    .itens {
+        padding: 5px;
+    }
+    
+}
